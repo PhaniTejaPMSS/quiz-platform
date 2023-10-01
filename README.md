@@ -12,12 +12,11 @@ This is a simple quiz application that allows users to take a quiz, answer quest
 
 To get started with the quiz application, follow these steps:
 
-1. Clone this repository to your local machine:
+First, clone this repository to your local machine:
 
    ```bash
    git clone <repository-url>
-   
-
+   ```
 ## Usage
 
 1. Open the index.html file in your web browser to start the quiz.
