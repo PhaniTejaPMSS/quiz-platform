@@ -1,0 +1,131 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.homeText {
+    width: 806px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.main-container {
+    display: flex;
+    background: linear-gradient(117deg, #0F054B 12.36%, rgba(43, 16, 205, 0.99) 45.11%, #A416E7 102.88%);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.startText {
+    display: flex;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.startText:hover {
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+
+.nameField {
+    margin-top: 30px;
+    padding: 4px;
+    width: 200px;
+    height: 40px; 
+    border-radius: 10px; 
+    font-family: Outfit; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+
+#startButton {
+    margin-top: 30px;
+    color: white;
+    width: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Montserrat;
+    /* background-color: #180b61; */
+    font-size: 18px;
+    border: none;
+    cursor: not-allowed;
+}
+
+
+.container-box {
+    display: flex;
+    background: linear-gradient(117deg, #0F054B 12.36%, rgba(43, 16, 205, 0.99) 45.11%, #A416E7 102.88%);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease-in-out;
+}
+
+
+.loading-container {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.loading-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.loader {
+    border: 6px solid #f3f3f3;
+    border-top: 6px solid #180b61;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+

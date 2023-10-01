@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Outfit:wght@300&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./styles/quiz.css">
+
+    
+</head>
+<body>
+
+    <div class="quiz-container">
+        <h1>Quiz Time</h1>
+        <div id="question-container">
+
+            <div class="runTimer">
+                <p>Time Remaining: <span id="timer">0:00</span></p>
+            </div>
+
+            <p id="question">Question 1</p>
+            <p id="ques">What is the capital of France?</p>
+            <div class="options">
+                <ul id="answers">
+                    <li><input type="radio" name="q1" class="myRadioBtn" value="Paris">Paris</li>
+                    <li><input type="radio" name="q1" class="myRadioBtn" value="Berlin">Berlin</li>
+                    <li><input type="radio" name="q1" class="myRadioBtn" value="London">London</li>
+                    <li><input type="radio" name="q1" class="myRadioBtn" value="Madrid">Madrid</li>
+                </ul>
+            </div>
+        </div>
+        
+        <button id="next-button">Save and Continue</button>
+
+        <button id="restart-button">Restart Quiz</button>
+
+        <div id="result"></div>
+        
+    </div>
+
+    <script src="./quiz.js"></script>
+
+</body>
+</html>

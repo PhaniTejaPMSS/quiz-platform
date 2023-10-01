@@ -1,0 +1,152 @@
+
+/* fit the background image for full screen */
+body {
+    background-size: cover;
+    text-align: center;
+    font-family: Montserrat;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.quiz-container {
+    max-width: 600px;
+    /* color: #fdf0cb; */
+    backdrop-filter : blur(20px);
+    margin: 10vh auto;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+#question {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#ques {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Montserrat;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    position: relative;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: Outfit;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+#answers>li>input {
+    position: absolute;
+    left: 36%;
+    top: 18px;
+}
+
+input[type="radio"] {
+    position: relative;
+    margin-right: 10px;
+    /* color: #dbceac; */
+    width: 24px;
+    height: 24px;
+    padding: 20px;
+}
+
+#next-button {
+    background-color: #541e687e;
+    border-color: #d6b5e2ab;
+    border-width: 2px;
+    color: #e6ddc5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#next-button:hover {
+    /* background-color: #8c22b3ab; */
+    background-color: palegreen;
+    color: black;
+}
+
+#restart-button {
+    background-color: #c091d2;
+    /* background: none; */
+    border-color: #d6b5e2ab;
+    border-width: 2px;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#restart-button:hover {
+    background-color: #f34646ab;
+    color: #e6ddc5;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.runTimer {
+    text-align: right;
+    position: relative;
+    top: 20px;
+}
+
+
+#question {
+    position: relative;
+    top: -38px;
+    left: 4px;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: left;
+    color: white;
+}
+
+
+#timer {
+    color: rgb(15, 209, 15);
+    font-size: 20px;
+}
+
+
+.correct-answer {
+    color: yellow;
+}
+
+
