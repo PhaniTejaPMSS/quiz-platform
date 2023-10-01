@@ -35,7 +35,7 @@ First, clone this repository to your local machine:
 
 1. Quiz timer to track the time remaining for the quiz.
 2. Progression through a series of questions.
-3. 'Restart' button to retake the quiz.
+3. "Restart" button to retake the quiz.
 4. Final score display.
 
 
